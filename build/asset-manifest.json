@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/player-api/static/js/main.c4d56fd4.js",
+    "index.html": "/player-api/index.html",
+    "main.c4d56fd4.js.map": "/player-api/static/js/main.c4d56fd4.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.c4d56fd4.js"
+  ]
+}
