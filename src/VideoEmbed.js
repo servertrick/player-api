@@ -1,4 +1,4 @@
-// VideoEmbed.js
+// src/VideoEmbed.js
 import React from 'react';
 import { Box } from 'grommet';
 

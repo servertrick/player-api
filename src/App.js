@@ -1,6 +1,8 @@
+// src/App.js
 import React from 'react';
 import { Grommet, Box, Header, Footer, Text, Card, CardBody, CardHeader } from 'grommet';
 import { Home } from 'grommet-icons';
+import VideoEmbed from './VideoEmbed'; // Verify path
 
 const theme = {
   global: {
