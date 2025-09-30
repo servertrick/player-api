@@ -2,7 +2,7 @@
 import React from 'react';
 import { Grommet, Box, Header, Footer, Text, Card, CardBody, CardHeader } from 'grommet';
 import { Home } from 'grommet-icons';
-import VideoEmbed from './VideoEmbed'; // Verify path
+
 
 const theme = {
   global: {
@@ -31,9 +31,7 @@ function App() {
           <Home />
           <Text size="large" weight="bold">Player API Demo</Text>
         </Header>
-        <Box fill align="center" justify="center" pad="large" background="light-2">
-          <VideoEmbed />
-        </Box>
+
         <Box direction="row" wrap pad="medium" justify="center">
           <Tile title="Tile 1" content="This is the first tile." />
           <Tile title="Tile 2" content="This is the second tile." />
