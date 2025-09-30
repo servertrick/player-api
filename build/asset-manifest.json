@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/player-api/static/js/main.948fdba7.js",
+    "main.js": "/player-api/build/static/js/main.f436e291.js",
     "index.html": "/player-api/index.html",
-    "main.948fdba7.js.map": "/player-api/static/js/main.948fdba7.js.map"
+    "main.f436e291.js.map": "/player-api/build/static/js/main.f436e291.js.map"
   },
   "entrypoints": [
-    "static/js/main.948fdba7.js"
+    "build/static/js/main.f436e291.js"
   ]
 }
