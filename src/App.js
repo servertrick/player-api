@@ -32,7 +32,7 @@ function App() {
           <Text size="large" weight="bold">Player API Demo</Text>
         </Header>
         <Box fill align="center" justify="center" pad="large" background="light-2">
-          <VideoEmbed videoId="5d570c0e904a434f9a8dbedca39d89b8" />
+          <VideoEmbed />
         </Box>
         <Box direction="row" wrap pad="medium" justify="center">
           <Tile title="Tile 1" content="This is the first tile." />
