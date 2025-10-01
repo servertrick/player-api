@@ -44,28 +44,9 @@ function App() {
           <Home />
           <Text size="large" weight="bold">Player API Demo</Text>
         </Header>
-
-          <Box wrap margin="large" width="large" height="medium" round="medium" elevation="medium" overflow="hidden" alignSelf="center">
-
-          <div style={{ position: "relative", paddingBottom: "50.25%", height: 0 }}>
-      {/* Responsive iframe */}
-      <iframe
-        src={`https://sketchfab.com/models/6a463065f2714ecba864a9c792b6581f/embed?ui_infos=0&ui_watermark=0&ui_help=0&ui_vr=0&ui_settings=0&ui_inspector=0&ui_hint=2&ui_color=01a982&ui_theme=dark&autostart=1&camera=0&ui_controls=0&ui_stop=0`}
-        title="YouTube video"
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-        style={{
-          position: "absolute",
-          top: 0,
-          left: 0,
-          width: "100%",
-          height: "100%",
-        }}
-      ></iframe>
-    </div> 
-        
-          </Box>
+        <Box wrap margin="large" width="large" height="medium" round="medium" elevation="medium" overflow="hidden" alignSelf="center">
+                  <SketchfabViewer modelUid="6a463065f2714ecba864a9c792b6581f" />
+        </Box>
       </Box>
     </Grommet>
   );
