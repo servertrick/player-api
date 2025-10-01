@@ -50,7 +50,7 @@ function App() {
           <div style={{ position: "relative", paddingBottom: "50.25%", height: 0 }}>
       {/* Responsive iframe */}
       <iframe
-        src={`https://sketchfab.com/models/5d570c0e904a434f9a8dbedca39d89b8/embed?ui_infos=0&ui_watermark=0&ui_help=0&ui_vr=0&ui_settings=0&ui_inspector=0&ui_hint=2&ui_color=01a982&ui_theme=dark&autostart=1&camera=0`}
+        src={`https://sketchfab.com/models/6a463065f2714ecba864a9c792b6581f/embed?ui_infos=0&ui_watermark=0&ui_help=0&ui_vr=0&ui_settings=0&ui_inspector=0&ui_hint=2&ui_color=01a982&ui_theme=dark&autostart=1&camera=0&ui_controls=0&ui_stop=0`}
         title="YouTube video"
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
